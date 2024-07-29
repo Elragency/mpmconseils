@@ -34,15 +34,15 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
-		alt: 'The tailwind astro theme',
-		text: 'Foxi.'
+		alt: 'Le logo de MPM Conseils',
+		text: 'MPM Conseils'
 	},
 	navItems: [
-		{ name: 'Home', link: '/' },
-		{ name: 'Pricing', link: '/pricing' },
-		{ name: 'Features', link: '/features' },
+		{ name: 'Accueil', link: '/' },
+		{ name: 'Nos Services', link: '/features' },
+		{ name: 'À Propos', link: '/contact' },
 		{
-			name: 'Resources',
+			name: 'Ressources',
 			link: '#',
 			submenu: [
 				{ name: 'Blog', link: '/blog' },
@@ -53,5 +53,5 @@ export const navigationBarData: NavData = {
 		},
 		{ name: 'Contact', link: '/contact' }
 	],
-	navActions: [{ name: 'Try it now', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: 'Débutez maintenant', link: '/contact', style: 'primary', size: 'lg' }]
 }
