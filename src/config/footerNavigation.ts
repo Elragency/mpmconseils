@@ -37,27 +37,27 @@ export const footerNavigationData: FooterData = {
 	footerAbout: {
 		title: 'Foxi.',
 		aboutText:
-			"Des services de comptabilité pour les PME qui vous permettrons d'être équipé adéquatement afin d'avoir une enteprise prospère. ",
+			'Expertly made, responsive, accessible components in React and HTML ready to be used on your website or app. Just copy and paste them on your Tailwind CSS project.',
 		logo: {
 			src: '/logo.svg',
-			alt: 'Services comptable MPM Conseils',
-			text: 'MPM Conseils'
+			alt: 'The tailwind astro theme',
+			text: 'Foxi.'
 		}
 	},
 	footerColumns: [
 		{
-			category: 'Services',
+			category: 'Product',
 			subCategories: [
 				{
-					subCategory: 'Tenue de livre',
+					subCategory: 'Features',
 					subCategoryLink: '/features'
 				},
 				{
-					subCategory: 'Rapport financiers',
+					subCategory: 'FAQ',
 					subCategoryLink: '/faq'
 				},
 				{
-					subCategory: 'Service de paie',
+					subCategory: 'Pricing',
 					subCategoryLink: '/pricing'
 				},
 				{
