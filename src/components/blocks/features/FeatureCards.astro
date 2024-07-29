@@ -1,0 +1,73 @@
+---
+// Feature Cards grid Section
+// ------------
+// Description: A grid of cards with feature information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/FeatureCard.astro'
+
+// Content
+// - Cards
+import feature01 from '../../../assets/cards/feature-01.svg'
+import feature02 from '../../../assets/cards/feature-02.svg'
+import feature03 from '../../../assets/cards/feature-03.svg'
+import feature04 from '../../../assets/cards/feature-04.svg'
+import feature05 from '../../../assets/cards/feature-05.svg'
+---
+
+<Section id="features">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-pretty">La comptabilité c'est compliqué et plate pour la plupart du monde...Chez <strong>MPM Conseils</strong> c'est notre tasse de thé</h2>
+			<p class="pb-0 text-lg">
+				Pour une PME moyenne, avoir un département de comptabilité n'est pas rentable du tout. 
+				Cela veut généralement dire que le patron (vous) devez vous en charger. Parcontre, c'est
+				beaucoup de temps à investir pour un résultat dont vous n'êtes même pas sur d'être correct
+				au niveau légal. 
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="4">
+			<Card
+				title="Tous les chiffres à une seule place"
+				subtitle="Assurez-vous d'être payé, d'être en règle au niveau fiscal et de ne jamais vous faire tapper sur les doits par le gouvernement."
+				image={feature01}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Des services sur mesures"
+				subtitle="Que ce soit de la simple tenue de livre, à la mise en place de paiements pour vos fournisseurs en passant par les payes, nous avons un service qui sera à la hauteur de vos attentes. "
+				image={feature02}
+				link="/features"
+			/>
+			<Card
+				title="Comprenez la santé financière de votre entreprise"
+				subtitle="À quoi ca sert d'avoir des chiffres dans pleins de tableau si personne est capable de les comprendre ? Chez MPM Conseils, on s'assure de vous traduire les chiffres pour vous permettre de prendre des décisions éclairées sur l'avenir de votre compagnie."
+				image={feature03}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Gardez un oeil sur vos clients"
+				subtitle="Assurez un suivi de vos factures à la journée prêt afin de ne jamais être pris au dépourvu."
+				image={feature04}
+				link="/features"
+			/>
+			<Card
+				title="Simplifier vos finances"
+				subtitle="Vous avez accès à un tableau en temps réel pour ne pas stresser lorsque vient le temps de faire une dépenses."
+				image={feature05}
+				link="/features"
+			/>
+		</Col>
+	</Row>
+</Section>

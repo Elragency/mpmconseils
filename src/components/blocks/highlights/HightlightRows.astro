@@ -1,0 +1,84 @@
+---
+// Highlights Section
+// ------------
+// Description: A section with a multiple text and image rows.
+
+// Components
+// - UI
+import TextImage from '../basic/TextImage.astro'
+
+// Content
+import highlight01 from '../../../assets/highlights/highlight-01.svg'
+import highlight01mobile from '../../../assets/highlights/highlight-01-mobile.svg'
+import highlight02 from '../../../assets/highlights/highlight-02.svg'
+import highlight02mobile from '../../../assets/highlights/highlight-02-mobile.svg'
+import highlight03 from '../../../assets/highlights/highlight-03.svg'
+import highlight03mobile from '../../../assets/highlights/highlight-03-mobile.svg'
+import highlight04 from '../../../assets/highlights/highlight-04.svg'
+import highlight04mobile from '../../../assets/highlights/highlight-04-mobile.svg'
+
+type HighlightBlock = {
+	title: string
+	text: string
+	image: any
+	mobileImage?: any
+	imageWidth: number
+	imageHeight: number
+	imagePosition: 'left' | 'right'
+}
+const highlightBlocks: HighlightBlock[] = [
+{
+	title: 'Expertise et Connaissances <strong>Comptables</strong>',
+	text: 'Bénéficiez de l\'expertise et des connaissances spécialisées de nos experts-comptables. Restez à jour avec les dernières lois fiscales, les réglementations financières et les meilleures pratiques pour assurer la conformité et la précision de vos finances.',
+	image: highlight01,
+	imageWidth: highlight01.width,
+	imageHeight: highlight01.height,
+	mobileImage: highlight01mobile,
+	imagePosition: 'right'
+},
+{
+	title: 'Économies de <strong>Temps</strong>',
+	text: 'Gagnez du temps en externalisant vos tâches financières Chez MPM Conseils. Concentrez-vous sur ce qui va réellement faire croitre votre entreprise pendant que nous nous occupons de vos finances.',
+	image: highlight02,
+	mobileImage: highlight02mobile,
+	imageWidth: highlight02.width,
+	imageHeight: highlight02.height,
+	imagePosition: 'left'
+},
+{
+	title: 'Optimisation <strong>Fiscale</strong>',
+	text: 'Optimisez vos impôts avec l\'aide de nos experts. Nous vous aidons à naviguer dans le paysage fiscal complexe, identifiant les opportunités de déductions et de crédits pour minimiser vos obligations fiscales.',
+	image: highlight03,
+	mobileImage: highlight03mobile,
+	imageWidth: highlight03.width,
+	imageHeight: highlight03.height,
+	imagePosition: 'right'
+},
+{
+	title: 'Planification et Stratégie <strong>Financières</strong>',
+	text: 'Recevez des conseils précieux sur la santé financière de votre entreprise. Nous vous assistons dans la budgétisation, la prévision et la planification financière pour une prise de décision éclairée et un succès à long terme.',
+	image: highlight04,
+	mobileImage: highlight04mobile,
+	imageWidth: highlight04.width,
+	imageHeight: highlight04.height,
+	imagePosition: 'left'
+}
+
+]
+---
+
+{
+	highlightBlocks.map((highlight, key) => (
+		<TextImage
+			id={`highlight-${key}`}
+			title={highlight.title}
+			text={highlight.text}
+			image={highlight.image}
+			imageWidth={highlight.imageWidth}
+			imageHeight={highlight.imageHeight}
+			mobileImage={highlight.mobileImage}
+			imagePosition={highlight.imagePosition}
+			classes={key === 0 ? '!pb-0' : key === highlightBlocks.length - 1 ? '!pt-0' : '!py-0'}
+		/>
+	))
+}
