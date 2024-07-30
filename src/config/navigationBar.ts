@@ -33,7 +33,7 @@ export interface NavData {
 
 export const navigationBarData: NavData = {
 	logo: {
-		src: '/logo.svg',
+		src: '/mp.svg',
 		alt: 'The tailwind astro theme',
 		text: 'MPM Conseils'
 	},
