@@ -84,52 +84,58 @@
 		"category": "Integrations"
 	},
 	{
-		"title": "Multi-Device Sync",
+		"title": "Synchronisation Multi-Appareils",
 		"icon": "computer-desktop",
-		"description": "Ensure seamless access to your data across all devices. Sync your information in real-time, so you can work from anywhere with consistency.",
+		"description": "Assurez un accès transparent à vos données sur tous les appareils. Synchronisez vos informations en temps réel pour travailler de manière cohérente de n'importe où.",
 		"category": "Support"
 	},
 	{
-		"title": "Customizable Alerts",
+		"title": "Alertes Personnalisables",
 		"icon": "bell",
-		"description": "Set up customizable alerts to notify you of important events and changes. Tailor notifications to your needs for better management and response.",
+		"description": "Configurez des alertes personnalisables pour vous notifier des événements et des changements importants. Adaptez les notifications à vos besoins pour une meilleure gestion et réactivité.",
 		"category": "Support"
 	},
 	{
-		"title": "API Integrations",
-		"icon": "arrow-path-rounded-square",
-		"description": "Integrate with other systems and services using our flexible API. Expand functionality and connect with external tools effortlessly.",
-		"category": "Integrations"
-	},
-	{
-		"title": "Interactive Tutorials",
-		"icon": "document-chart-bar",
-		"description": "Access interactive tutorials to get the most out of our features. Learn new skills and improve your proficiency with guided, hands-on experiences.",
-		"category": "Support"
-	},
-	{
-		"title": "Integration Marketplace",
-		"icon": "shopping-cart",
-		"description": "Explore our marketplace for additional integrations and plugins. Extend the functionality of your platform with third-party solutions.",
-		"category": "Integrations"
-	},
-	{
-		"title": "Onboarding Assistance",
+		"title": "Assistance à l'Intégration",
 		"icon": "user",
-		"description": "Get personalized onboarding assistance to help you set up and start using our platform effectively. Benefit from expert guidance to ensure a smooth start.",
+		"description": "Bénéficiez d'une assistance personnalisée pour vous aider à configurer et à utiliser efficacement notre plateforme. Profitez de conseils d'experts pour un démarrage en douceur.",
 		"category": "Support"
 	},
 	{
-		"title": "Knowledge Base",
+		"title": "Base de Connaissances",
 		"icon": "document-text",
-		"description": "Access a comprehensive knowledge base with articles, guides, and FAQs. Find answers to common questions and learn how to make the most of our features.",
+		"description": "Accédez à une base de connaissances complète avec des articles, des guides et des FAQ. Trouvez des réponses aux questions courantes et apprenez à tirer le meilleur parti de nos fonctionnalités.",
 		"category": "Support"
 	},
 	{
-		"title": "Live Chat Support",
+		"title": "Support par Chat en Direct",
 		"icon": "chat-bubble-left-ellipsis",
-		"description": "Connect with our support team via live chat for immediate assistance. Get answers to your questions and resolve issues in real time.",
+		"description": "Connectez-vous avec notre équipe de support via le chat en direct pour une assistance immédiate. Obtenez des réponses à vos questions et résolvez vos problèmes en temps réel.",
 		"category": "Support"
+	},
+	{
+		"title": "Tutoriels Interactifs",
+		"icon": "document-chart-bar",
+		"description": "Accédez à des tutoriels interactifs pour tirer le meilleur parti de nos fonctionnalités. Apprenez de nouvelles compétences et améliorez votre maîtrise grâce à des expériences pratiques guidées.",
+		"category": "Support"
+	},
+	{
+		"title": "Assistance Complète",
+		"icon": "scale",
+		"description": "Accédez à des ressources de support complètes pour aider les utilisateurs à tous les niveaux. De la résolution de problèmes aux conseils avancés, obtenez l'aide dont vous avez besoin.",
+		"category": "Support"
+	},
+	{
+		"title": "Enregistrements Vocaux",
+		"icon": "microphone",
+		"description": "Recevez des mises à jour en temps réel sur les fonctionnalités d'accessibilité et les améliorations. Restez informé des changements qui impactent votre accès mobile et web.",
+		"category": "Support"
+	},
+	{
+		"title": "Création et Optimisation d'Entreprises",
+		"icon": "microphone",
+		"description": "Profitez de nos services experts pour la création et l'optimisation de votre entreprise. De la constitution à l'optimisation fiscale, nous vous accompagnons à chaque étape pour maximiser votre succès.",
+		"category": "Productivity"
 	},
 	{
 		"title": "Déposer dans un compte distinct",
@@ -174,39 +180,39 @@
 		"category": "Productivity"
 	},
 	{
-		"title": "Comprehensive Balancer",
-		"icon": "scale",
-		"description": "Access comprehensive support resources to assist users at all levels. From troubleshooting to advanced tips, get the help you need.",
-		"category": "Support"
-	},
-	{
-		"title": "Voice Recordings",
-		"icon": "microphone",
-		"description": "Receive real-time updates on accessibility features and improvements. Stay informed about changes that impact your mobile and web access.",
-		"category": "Support"
-	},
-	{
-		"title": "Payment Integrations",
+		"title": "Intégrations de Paiement",
 		"icon": "credit-card",
-		"description": "Communicate directly within the app using in-app messaging. Keep conversations organized and accessible without switching between tools.",
+		"description": "Gérez les paiements de vos employés directement depuis notre plateforme. Assurez des transactions sécurisées et fluides pour tous les versements de salaires.",
 		"category": "Integrations"
 	},
 	{
-		"title": "Transparent API ",
+		"title": "API Transparentes",
 		"icon": "cube-transparent",
-		"description": "Seamlessly integrate with third-party APIs to extend the functionality of your app. Enjoy smooth data exchange and enhanced performance.",
+		"description": "Intégrez facilement des API tierces pour étendre les fonctionnalités de votre système de paiement des employés. Profitez d'un échange de données fluide et de performances améliorées.",
 		"category": "Integrations"
 	},
 	{
-		"title": "Clever CRM Integration",
+		"title": "Intégration CRM Intelligente",
 		"icon": "light-bulb",
-		"description": "Connect your app with popular CRM systems to streamline customer management. Synchronize data and improve customer relationship processes.",
+		"description": "Connectez votre système de paie avec les CRM populaires pour optimiser la gestion des employés. Synchronisez les données et améliorez les processus de gestion des relations.",
 		"category": "Integrations"
 	},
 	{
-		"title": "API key Integration",
+		"title": "Intégration des Clés API",
 		"icon": "key",
-		"description": "Integrate multiple payment gateways to offer diverse payment options. Ensure secure transactions and smooth payment processing for users.",
+		"description": "Intégrez plusieurs passerelles de paiement pour offrir diverses options de paiement aux employés. Assurez des transactions sécurisées et un traitement fluide des paiements.",
+		"category": "Integrations"
+	},
+	{
+		"title": "Intégrations API",
+		"icon": "arrow-path-rounded-square",
+		"description": "Intégrez votre système de paie avec d'autres services et systèmes grâce à notre API flexible. Étendez les fonctionnalités et connectez-vous facilement avec des outils externes.",
+		"category": "Integrations"
+	},
+	{
+		"title": "Place de Marché des Intégrations",
+		"icon": "shopping-cart",
+		"description": "Explorez notre place de marché pour des intégrations et plugins supplémentaires. Étendez les fonctionnalités de votre plateforme de paiement avec des solutions tierces.",
 		"category": "Integrations"
 	}
 ]
