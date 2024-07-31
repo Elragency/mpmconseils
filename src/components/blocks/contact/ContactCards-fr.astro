@@ -1,0 +1,72 @@
+---
+// Basic Cards grid Section
+// ------------
+// Description: A grid of cards with basic contact information in a 4 column layout.
+// Properties:
+// - classes: Additional classes to be added to the Section
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/BasicCard.astro'
+
+// 	Props
+type Props = {
+	classes?: string
+}
+const { classes } = Astro.props
+---
+
+<Section id="requests" classes={classes}>
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-balance">Vous avez une demande spéciale? Obtenez notre <strong>aide!</strong></h2>
+			<p class="pb-0 text-lg">
+				Choose from one of the options below to get the specific help you need. Whether it's
+				customer support, sales inquiries, feature requests, or general feedback, we're here to
+				provide you with the best assistance possible.
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="3">
+			<Card
+				title="Service à la clientèle"
+				subtitle="Besoin d'aide avec vos finances ? Notre équipe d'assistance est disponible pour vous aider en cas de problème ou de question que vous pourriez avoir."
+				icon="rocket"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="/contact"
+			/>
+		</Col>
+		<Col span="3">
+			<Card
+				title="Département des ventes "
+				subtitle="Intéressé par nos plans ou souhaitez une solution personnalisée? Contactez notre équipe commerciale pour trouver la solution idéale. "
+				icon="document-text"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="/contact"
+			/>
+		</Col>
+		<Col span="3">
+			<Card
+				title="Nouvelles requêtes"
+				subtitle="Vous avez une idée pour rendre L'agence MPM encore meilleur ? Partagez vos demandes de fonctionnalités et aidez-nous à nous améliorer"
+				icon="bolt"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="/contact"
+			/>
+		</Col>
+		<Col span="3" classes="flex flex-col gap-6">
+			<Card
+				title="Avis général"
+				subtitle="Vos commentaires nous sont précieux. Faites-nous savoir comment nous allons et comment nous pouvons nous améliorer."
+				icon="chat-bubble-left-ellipsis"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="/contact"
+			/>
+		</Col>
+	</Row>
+</Section>

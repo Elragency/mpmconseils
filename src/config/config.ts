@@ -23,7 +23,7 @@ export interface Config {
 export const configData: Config = {
 	siteTitle: 'MPM Conseils Comptable',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
+		"L'agence MPM est votre expert en comptabilité qui parle votre language et travaille réellement pour vous.",
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/mp.svg',

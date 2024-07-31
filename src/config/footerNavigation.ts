@@ -35,47 +35,47 @@ export interface FooterData {
 
 export const footerNavigationData: FooterData = {
 	footerAbout: {
-		title: 'Foxi.',
+		title: 'Agence MPM',
 		aboutText:
-			'Expertly made, responsive, accessible components in React and HTML ready to be used on your website or app. Just copy and paste them on your Tailwind CSS project.',
+			"Services comptables d'expert pour votre PME",
 		logo: {
-			src: '/logo.svg',
-			alt: 'The tailwind astro theme',
-			text: 'Foxi.'
+			src: '/mp.svg',
+			alt: 'Agence MPM conseils',
+			text: 'Agence MPM.'
 		}
 	},
 	footerColumns: [
 		{
-			category: 'Product',
+			category: 'Services',
 			subCategories: [
 				{
-					subCategory: 'Features',
+					subCategory: 'Services',
 					subCategoryLink: '/features'
 				},
 				{
-					subCategory: 'FAQ',
-					subCategoryLink: '/faq'
+					subCategory: 'Tenue de livres',
+					subCategoryLink: '/services/tenue'
 				},
 				{
-					subCategory: 'Pricing',
-					subCategoryLink: '/pricing'
+					subCategory: 'Remises gouvernementales',
+					subCategoryLink: '/services/gvt'
 				},
 				{
-					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
+					subCategory: 'Syndicats de copropriété',
+					subCategoryLink: '/services/sdc'
 				},
 				{
-					subCategory: 'Terms',
-					subCategoryLink: '/terms'
+					subCategory: 'Paies',
+					subCategoryLink: '/services/paies'
 				}
 			]
 		},
 		{
-			category: 'About us',
+			category: 'À Propos',
 			subCategories: [
 				{
-					subCategory: 'About us',
-					subCategoryLink: '/'
+					subCategory: 'Agence MPM',
+					subCategoryLink: '/mpm'
 				},
 				{
 					subCategory: 'News',
@@ -88,7 +88,7 @@ export const footerNavigationData: FooterData = {
 			]
 		},
 		{
-			category: 'Get in touch',
+			category: 'Contactez-nous',
 			subCategories: [
 				{
 					subCategory: 'Contact',
@@ -99,13 +99,13 @@ export const footerNavigationData: FooterData = {
 					subCategoryLink: '/contact'
 				},
 				{
-					subCategory: 'Join us',
+					subCategory: 'Rejoindre',
 					subCategoryLink: '/contact'
 				}
 			]
 		}
 	],
 	subFooter: {
-		copywriteText: '© Foxi 2024.'
+		copywriteText: '© Agence MPM 2024.'
 	}
 }
