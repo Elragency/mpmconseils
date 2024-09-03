@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        font-family: "Minion Variable Concept";
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-width: 17.89px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="MPM" class="cls-1" transform="translate(142.271 487.928) scale(7.613)">MPM</text>
+  <text id="CONSEILS" class="cls-1" transform="translate(278.705 635.39) scale(2.662)">CONSEILS</text>
+  <path id="Line_1" data-name="Line 1" class="cls-2" d="M193,518v-1h814v1H193Z"/>
+</svg>
