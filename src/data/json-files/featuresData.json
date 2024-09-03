@@ -3,79 +3,79 @@
 		"title": "Accès en temps réel",
 		"icon": "chart-pie",
 		"description": "Suivez les performances financières de votre entreprise en temps réel avec notre service de comptabilité. Accédez instantanément aux métriques financières, au comportement des utilisateurs et à l'efficacité des campagnes.",
-		"category": "Analytics"
+		"category": "Tlivres"
 	},
 	{
 		"title": "Rapports avancés",
 		"icon": "clipboard-document-list",
 		"description": "Générez des rapports détaillés grâce à nos fonctionnalités avancées en comptabilité. Personnalisez vos rapports pour suivre les indicateurs clés de performance et obtenir des insights approfondis.",
-		"category": "Analytics"
+		"category": "Tlivres"
 	},
 	{
-		"title": "Thèmes personnalisables",
-		"icon": "paint-brush",
+		"title": "Comptabilité Mensuelle",
+		"icon": "arrow-path-rounded-square",
 		"description": "Personnalisez l'apparence de votre espace de travail comptable avec des thèmes sur mesure. Choisissez parmi diverses options de design pour correspondre au style de votre marque.",
-		"category": "Analytics"
+		"category": "Tlivres"
 	},
 	{
 		"title": "Suivi des performances",
 		"icon": "arrow-trending-up",
 		"description": "Surveillez et suivez les métriques de performance financière pour garantir une efficacité optimale. Utilisez les données de performance pour prendre des décisions et des améliorations éclairées.",
-		"category": "Analytics"
+		"category": "Tlivres"
 	},
 	{
-		"title": "Widgets personnalisables",
+		"title": "Services personnalisables",
 		"icon": "squares-plus",
-		"description": "Améliorez votre tableau de bord comptable avec des widgets personnalisés. Ajoutez et configurez des widgets pour afficher les informations les plus pertinentes pour vos besoins.",
-		"category": "Analytics"
+		"description": "Votre entreprise a des besoins particuliers qui auraient besoin d'un service comptable sur mesure? Nous pouvons nous en occuper, faites nous en part immédiatement.",
+		"category": "Tlivres"
 	},
 	{
-		"title": "Data Visualization",
+		"title": "Des Chiffres Comprenables",
 		"icon": "eye",
-		"description": "Visualisez vos données comptables avec des outils de graphiques et de tableaux avancés. Créez des représentations visuelles perspicaces pour mieux comprendre vos métriques.",
-		"category": "Analytics"
+		"description": "Avec les services de MPM Conseils, nous rendons les chiffres compréhensible afin de faciliter la prise de décision au maximum et permettre à votre entreprise de croitre.",
+		"category": "Tlivres"
 	},
 	{
-		"title": "Mobile Accessibility",
+		"title": "Accès Mobile",
 		"icon": "device-phone-mobile",
-		"description": "Stay productive on the go with Foxi's mobile app. Access key features, collaborate with your team, and manage tasks anytime, anywhere.",
-		"category": "Support"
+		"description": "Accédez aux données de votre entreprise peu importe ou vous êtes grâce à votre cellulaire, car nous ne savons jamais ou nous allons avoir le temps de consulter nos donnés.",
+		"category": "Tlivres"
 	},
 	{
-		"title": "Déclarations Comptables Gouvernementales",
+		"title": "Officialisation légale",
 		"icon": "document-text",
-		"description": "Simplifiez vos obligations fiscales avec nos services de déclaration comptable gouvernementale. Nous nous assurons que toutes vos déclarations sont soumises correctement et à temps.",
-		"category": "Security"
+		"description": "On s’occupe de tout ce qui est paperasse officielle, comme obtenir ton NEQ ou t’incorporer si tu veux te la jouer “grande entreprise”. En gros, on te guide pour que tout soit clean et légal dès le départ, sans maux de tête.",
+		"category": "Gvt"
 	},
 	{
-		"title": "Sécurité des Données Robuste",
+		"title": "Nom d'entreprise unique",
 		"icon": "shield-check",
-		"description": "Assurez-vous que vos données sont sécurisées grâce à nos mesures robustes de sécurité. Nous employons des protocoles standards pour protéger vos informations.",
-		"category": "Security"
+		"description": "Trouver le nom parfait, c’est un peu comme choisir le nom de ton animal de compagnie : tu veux qu’il soit unique et qu’il te représente bien. On t’aide à t’assurer que ton futur bébé d’entreprise ait un nom qui claque et qui soit bien à toi.",
+		"category": "Gvt"
 	},
 	{
-		"title": "Scalabilité",
-		"icon": "arrow-trending-up",
-		"description": "Développez votre entreprise en toute confiance grâce à notre plateforme évolutive. Que vous soyez une startup ou une grande entreprise, notre solution s'adapte à vos besoins.",
-		"category": "Security"
+		"title": "Formulaires gouvernementaux",
+		"icon": "rectangle-stack",
+		"description": "Les formulaires, c’est pas ce qu’il y a de plus fun, on le sait. Mais laisse-nous gérer ça pour toi ! On remplit toutes les cases à ta place pour que tu puisses te concentrer sur des choses plus excitantes, comme choisir ta playlist pour le bureau.",
+		"category": "Gvt"
 	},
 	{
-		"title": "Notifications en Temps Réel",
-		"icon": "bell-alert",
-		"description": "Restez informé avec des notifications en temps réel pour les événements et les mises à jour importants. Ne manquez jamais d'informations critiques grâce aux alertes instantanées.",
-		"category": "Security"
+		"title": "Livre de compagnie",
+		"icon": "identification",
+		"description": "Imagine un carnet de bord ultra stylé qui regroupe tout ce qu’il faut savoir sur ton entreprise. NEQ, inscriptions fiscales, mots de passe… Tu auras tout ça bien rangé, en version papier et numérique, pour briller en société (et dans ton bureau).",
+		"category": "Gvt"
 	},
 	{
-		"title": "Gestion des Rôles Utilisateurs",
-		"icon": "user",
-		"description": "Gérez les rôles et les permissions des utilisateurs avec facilité. Contrôlez les niveaux d'accès et assurez-vous que les bonnes personnes ont les bonnes autorisations pour votre projet.",
-		"category": "Security"
+		"title": "Inscription aux taxes",
+		"icon": "shopping-cart",
+		"description": "Les taxes, c’est comme les légumes : c’est pas toujours appétissant, mais c’est nécessaire. On s’occupe de t’inscrire aux taxes du Québec et du Canada pour que tu sois en règle, et promis, on ne te fera pas manger de brocoli.",
+		"category": "Gvt"
 	},
 	{
-		"title": "Sauvegarde des Données",
-		"icon": "circle-stack",
-		"description": "Protégez vos données avec des sauvegardes régulières. Assurez-vous que vos informations sont sécurisées et récupérables en cas de problèmes inattendus ou de perte de données.",
-		"category": "Security"
+		"title": "Conseil en structure d'entreprise",
+		"icon": "chat-bubble-left-right",
+		"description": "Pas sûr de comment structurer ton entreprise ? Pas de panique ! On te conseille sur la meilleure façon de le faire, que tu veuilles rester solo ou bâtir un empire. On rend ça simple, parce qu’on sait que t’as déjà plein d’idées géniales en tête.",
+		"category": "Gvt"
 	},
 	{
 		"title": "In-App Messaging",
@@ -216,3 +216,4 @@
 		"category": "Integrations"
 	}
 ]
+

@@ -1,0 +1,4 @@
+Cloche: bell-alert
+Personne: user
+Circle: circle-stack
+Documents: arrow-trending-up

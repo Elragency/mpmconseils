@@ -34,12 +34,12 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/mp.svg',
-		alt: 'The tailwind astro theme',
+		alt: "Le logo de l'agence MPM",
 		text: 'MPM Conseils'
 	},
 	navItems: [
 		{ name: 'Accueil', link: '/' },
-		{ name: 'Services', link: '/features' },
+		{ name: 'Services', link: '/services' },
 		{ name: 'MPM', link: '/mpm' },
 		{
 			name: 'Resources',

@@ -4,17 +4,18 @@ import Feature from '../components/blocks/features/FeatureSticky.astro'
 import Hero from '../components/blocks/hero/PageHeader.astro'
 import CTA from '../components/blocks/CTA/BasicDark.astro'
 
+
 import featuresData from '../data/json-files/featuresData.json'
 
-const featuresAnalytics = featuresData.filter((feature) => feature.category === 'Analytics')
+const featuresTlivres = featuresData.filter((feature) => feature.category === 'Tlivres')
 const featuresProductivity = featuresData.filter((feature) => feature.category === 'Productivity')
-const featuresSecurity = featuresData.filter((feature) => feature.category === 'Security')
+const featuresGvt = featuresData.filter((feature) => feature.category === 'Gvt')
 const featuresIntegrations = featuresData.filter((feature) => feature.category === 'Integrations')
 const featuresSupport = featuresData.filter((feature) => feature.category === 'Support')
 
 const SEO = {
   title: 'MPM Conseils | Nos services de comptabilité complets et fiables',
-  description: "Explore Foxi's powerful features designed to enhance productivity, ensure top-notch security, and integrate seamlessly with your favorite tools. Join thousands of satisfied users and transform your workflow with Foxi today!"
+  description: "Consultez nos services de comptabilité personnalisés pour les besoins de votre entreprise!"
 }
 
 const header = {
@@ -31,16 +32,16 @@ const comptabilite = "/comptabilite"
   <Hero title={header.title} text={header.text} />
   <Feature
     title="Tenue de livres"
-    text="Delve into your data with precision and uncover actionable insights."
-    data={featuresAnalytics}
-    buttonLink={tenuedelivres}
+    text="Assurez vous d'être en règle au nivau comptable sans vous casser la tête."
+    data={featuresTlivres}
+    buttonLink={"/services/tenuedelivres"}
   />
   <Feature
-    title="Remises Gouvernementales"
-    text="Streamline tasks and focus on what matters with tools designed to boost your productivity."
-    data={featuresSecurity}
+    title="Ouverture d'entreprise"
+    text="Que ce soit pour vos taxes, impôts ou tout autre chose plate, nous pouvons nous en occuper."
+    data={featuresGvt}
     classes="bg-neutral-50 dark:bg-neutral-900"
-    buttonLink={services}
+    buttonLink={"/services/gvt"}
   />
   <Feature
     title="Syndicat de copropriété"
@@ -53,7 +54,7 @@ const comptabilite = "/comptabilite"
     text="Effortlessly connect your favorite apps and automate workflows for a smoother workday."
     data={featuresIntegrations}
     classes="bg-neutral-50 dark:bg-neutral-900"
-	buttonLink={comptabilite}
+	buttonLink={"/services/comptabilite"}
   />
   <Feature
     title="Conseils comptables"
